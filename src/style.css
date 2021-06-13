@@ -40,6 +40,13 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
+.information {
+  margin: 2px;
+  border: 2px solid #18b3a8;
+  padding: 2px;
+  border-radius: 10px;
+}
+
 .weather-temperature img {
   margin-left: 20px;
   width: 64px;
