@@ -1,3 +1,8 @@
+body {
+  background-size: cover;
+  background-image: url("/visuals/mist.jpg");
+}
+
 h1 {
   color: #0d62a8;
   font-size: 24px;
