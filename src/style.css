@@ -1,6 +1,9 @@
-.container {
+.body {
   background-size: cover;
   background-image: url("/visuals/mist.jpg");
+  background-color: rgba(61, 52, 50, 0.5);
+  backdrop-filter: blur(1px);
+  backdrop-filter: opacity(20px);
 }
 
 h1 {
@@ -36,9 +39,6 @@ li:first-letter {
   padding: 20px;
   border: 2px solid #ff3366;
   border-radius: 10px;
-  background-color: rgba(61, 52, 50, 0.5);
-  backdrop-filter: blur(1px);
-  backdrop-filter: opacity(20px);
 }
 
 .overview {
