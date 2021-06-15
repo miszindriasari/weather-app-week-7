@@ -30,6 +30,7 @@ function displayTemperature(response) {
   let windElement = document.querySelector("#wind");
   let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
+  let feelElement = document.querySelector("#feels");
 
   celcsiusTemperature = response.data.main.temp;
 
@@ -39,6 +40,7 @@ function displayTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  feelElement.innerHTML = Math.round(response.data.main.feels_like);
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
@@ -86,4 +88,4 @@ fahrenheitLink.addEventListener("click", convertToFahrenheit);
 let celciusLink = document.querySelector("#celsius-link");
 celciusLink.addEventListener("click", convertToCelcius);
 
-search("New York");
+search("Amsterdam");
