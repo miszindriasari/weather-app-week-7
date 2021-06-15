@@ -1,4 +1,4 @@
-body {
+.container {
   background-size: cover;
   background-image: url("/visuals/mist.jpg");
 }
