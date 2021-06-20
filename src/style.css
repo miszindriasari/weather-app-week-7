@@ -86,23 +86,19 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin: 5px;
-  padding: 5px;
+  margin-top: 20px;
   text-align: center;
+  color: #0d62a8;
 }
 
 .weather-forecast-date {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
+  font-size: 16px;
 }
 
-.weather-forecast-temp {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-}
-
-.weather-forecast-temp-min {
+.weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
