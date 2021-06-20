@@ -84,3 +84,25 @@ li:first-letter {
 .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.weather-forecast-temp {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
