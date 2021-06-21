@@ -43,12 +43,14 @@ li:first-letter {
 
 .overview {
   margin-bottom: 20px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .information {
-  margin: 10px;
-  border: 3px solid #18b3a8;
+  margin: 5px;
   padding: 10px;
+  border: 3px solid #18b3a8;
   border-radius: 10px;
 }
 
@@ -89,6 +91,10 @@ li:first-letter {
   margin-top: 20px;
   text-align: center;
   color: #0d62a8;
+  border: 3px solid #18b3a8;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .weather-forecast-date {
